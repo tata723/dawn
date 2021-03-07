@@ -1,0 +1,51 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background:#3C4767;
+}
+
+/* main content */
+#row{
+    display: flex;
+    flex-flow: row wrap;
+}
+#container{
+    flex: 0 0 80%;
+}
+#side-bar{
+    flex: 0 0 19%;
+    border-left: 1px solid #6C6C6C;
+}
+
+
+/* login.blade.php */
+#head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+h1{
+    width: 20%;
+}
+
+#header-right{
+    /* width: 80%; */
+}
+
+#header-menu>p img{
+   border-radius: 50%;
+}
+
+.header-menu-list{
+    /* display: none; */
+}
